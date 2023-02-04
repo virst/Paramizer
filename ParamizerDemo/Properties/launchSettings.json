@@ -1,0 +1,18 @@
+{
+  "profiles": {
+    "ParamizerDemoFromFile": {
+      "commandName": "Project",
+      "commandLineArgs": "prm.json",
+      "environmentVariables": {
+        "ParamValue": "223"
+      }
+    },
+    "ParamizerDemoFromArgs": {
+      "commandName": "Project",
+      "commandLineArgs": "--name bibo -v \"long play 2\" --num 111399",
+      "environmentVariables": {
+        "ParamBool": "true"
+      }
+    }
+  }
+}
